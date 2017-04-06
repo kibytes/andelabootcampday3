@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
+import unittest
 from wordcountlab import words
 
-class TestWordCounts(TestCase):
+class TestWordCounts(unittest.TestCase):
 
     """
         Counts the occurrences or characters in a word
